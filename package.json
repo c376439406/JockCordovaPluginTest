@@ -1,0 +1,14 @@
+{
+  "name": "syt-ionic-plugin-jock-test",
+  "version": "0.0.1",
+  "description": "Jock test plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "no"
+  },
+  "keywords": [
+    "demo"
+  ],
+  "author": "Jock58",
+  "license": "ISC"
+}
