@@ -1,14 +1,30 @@
 {
-  "name": "syt-ionic-plugin-jock-test",
-  "version": "0.0.1",
-  "description": "Jock test plugin",
-  "main": "index.js",
-  "scripts": {
-    "test": "no"
-  },
-  "keywords": [
-    "demo"
-  ],
-  "author": "Jock58",
-  "license": "ISC"
+    "name": "syt-ionic-plugin-jock-test",
+    "version": "1.1.2",
+    "description": "Jock test plugin",
+    "cordova": {
+        "id": "syt-ionic-plugin-jock-test",
+        "platforms": [
+            "ios"
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/c376439406/JockCordovaPluginTest.git"
+    },
+    "main": "index.js",
+    "scripts": {
+        "test": "no"
+    },
+    "keywords": [
+        "demo",
+        "jock",
+        "syt-ionic"
+    ],
+    "author": "Jock58",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/c376439406/JockCordovaPluginTest/issues"
+    },
+    "homepage": "https://github.com/c376439406/JockCordovaPluginTest/blob/master/README.md"
 }

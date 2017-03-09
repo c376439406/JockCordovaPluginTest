@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<plugin id="syt-ionic-plugin-jock-test" version="1.1.2" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+	<name>JockPluginTest</name>
+
+	<js-module name="JockPluginTest" src="www/JockPluginTest.js">
+		<clobbers target="cordova.plugins.JockPluginTest" />
+	</js-module>
+	<platform name="ios">
+		<config-file parent="/*" target="config.xml">
+			<feature name="JockPluginTest">
+				<param name="ios-package" value="JockPluginTest" />
+			</feature>
+		</config-file>
+		<source-file src="src/ios/JockPluginTest.m" />
+	</platform>
+</plugin>
