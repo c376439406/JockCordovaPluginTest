@@ -10,4 +10,4 @@ JockPluginTest.showNativeAlert = function() {
     exec(null, null, "JockPluginTest", "showNativeAlert", []);
 }
 
-module.exports = Keyboard;
+module.exports = JockPluginTest;
